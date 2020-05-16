@@ -3,18 +3,23 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/starStyle.css">
+  <script src="https://kit.fontawesome.com/3a5bea1600.js" crossorigin="anonymous"></script>
+
   <title>Maycon Fabio</title>
 </head>
 
 <body>
+  <canvas class="rain-canvas"></canvas>
+  <button class="btn-theme"><i class="fas fa-moon"></i></button>
+
   <header>
     <nav class="menu">
-      <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Portfólio</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
+      <a href="#">Sobre</a>
+      <a href="#">Portfólio</a>
+      <a href="#">Contato</a>
     </nav>
   </header>
 
@@ -22,14 +27,19 @@
     <h1>Maycon Fabio</h1>
     <h2>jr Frontend Developer</h2>
 
-    <a href="http://github.com/m4ycon" target="_blank" class="socials">
-      <img src="./img/github-logo.svg" alt="Logo do github">
-    </a>
-    <a href="https://www.linkedin.com/in/maycon-fabio-456932186/" target="_blank" class="socials">
-      <img src="./img/linkedin-logo.svg" alt="Logo do linkedin">
-    </a>
+    <div class="social-media">
+      <a href="http://github.com/m4ycon" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/maycon-fabio-456932186/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
   </section>
-  
+
+  <script src="js/starScript.js"></script>
+  <script src="js/ThemeController.js"></script>
+
 </body>
 
 </html>
