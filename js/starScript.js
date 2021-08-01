@@ -41,7 +41,7 @@ function createStars(numberOf) {
     let x = Math.random() * innerWidth,
       y = Math.random() * innerHeight,
       dy = -Math.random(),
-      color = `rgb(255,255,255,${Math.random()})`;
+      color = `rgb(255,255,255,${-dy})`;
 
     constelation.push(new Star(x, y, dy, color));
   }
